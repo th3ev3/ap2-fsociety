@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" href='favicon-16x16.png'>
+        <title>Fsociety</title>
+</head>
+<body>
+    <header>
+        <img src='capa.jpg' alt="conteudo-principal-imagem">
+    </header>
+<nav>
+    <ul>
+              <li> <a href="#Fsociety">Fsociety</a></li>
+             <li> <a href="#Evil Corp">Evil Corp</a></li>
+              <li> <a href='#Login'>Login</a></li>
+              <li> <a href="#Video">Video</a></li>
+
+      </ul>
+</nav>
+    <section> 
+        <div class="h1"> 
+            <h1 id="Fsociety" class='conteudo-secundario-titulo'> Fsociety</h1>
+            <article class='conteudo-secundario'> O grupo é altamente sigiloso, optando por se encontrar e se comunicar pessoalmente, em vez de por meios digitais que podem ser rastreáveis. A fsociety é responsável pelo ataque massivo de negação de serviço distribuído (DDoS) que deixou a E Corp offline antes que Elliot os interrompesse. Depois que o ataque terminou, Elliot encontrou um arquivo deixado em um dos servidores da E Corp pela fsociety. Em vez de excluir o arquivo, Elliot alterou as permissões de acesso no arquivo para permitir que apenas ele próprio o acessasse. Mais tarde, ele foi abordado pelo Sr. Robot no metrô e levado para Coney Island para ver a sede do grupo.</article>
+        </div>
+        </section>
+     
+        <aside>
+        <h1 id='Evil Corp' class='conteudo-secundario-titulo' > Evil Corp</h1>
+
+        <article class='conteudo-secundario'> A E Corp, conhecida por Elliot pelo nome depreciativo Evil Corp, é um dos maiores conglomerados multinacionais do mundo. Entre suas empresas, fabricam computadores, telefones e tablets, e mantêm uma divisão bancária e de crédito ao consumidor. De acordo com o Sr. Robot, a empresa detém 70% da indústria global de crédito ao consumidor, razão pela qual a fsociety os tem como alvo e por que o Sr. Robot recrutou Elliot para ajudá-los a invadir sua rede.
+
+            A Fsociety é responsável por um ataque DDoS que levou à demissão e possível processo criminal de Terry Colby, ex-Chief Technology Officer (CTO) da E Corp. Tyrell Wellick acredita que a posição de CTO agora deveria ser dele, mas ele foi preterido em favor do forasteiro Scott Knowles, que ele então tenta derrubar.
+            
+            Em vez de excluir o arquivo, Elliot alterou as permissões de acesso no arquivo para permitir que apenas ele próprio o acessasse.
+            Mais tarde, ele foi abordado pelo Sr. Robot no metrô e levado para Coney Island para ver a sede do grupo.</article>
+
+            <h1 id='Video' class='conteudo-secundario-titulo' > Video</h1>
+
+            <div style="text-align:center; padding-bottom: 17px;"> 
+                <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="makeBig()">Grande</button>
+                <button onclick="makeSmall()">Pequeno</button>
+                <button onclick="makeNormal()">Normal</button>
+                <br><br>
+                <video id="video1" width="420">
+                  <source src="WeAreFSociety.mp4" type="video/mp4">
+                  Your browser does not support HTML video.
+                </video>
+              </div> 
+              <script> 
+              var myVideo = document.getElementById("video1"); 
+              
+              function playPause() { 
+                if (myVideo.paused) 
+                  myVideo.play(); 
+                else 
+                  myVideo.pause(); 
+              } 
+              
+              function makeBig() { 
+                  myVideo.width = 560; 
+              } 
+              
+              function makeSmall() { 
+                  myVideo.width = 320; 
+              } 
+              
+              function makeNormal() { 
+                  myVideo.width = 420; 
+              } 
+              </script> 
+         
+            <h1 id='Login' class='conteudo-secundario-titulo'> Login</h1>
+        <article class='conteudo-secundario'>     <input type="email" placeholder="Seu email" > <input type="password" placeholder="Senha" >
+        </article>
+    </aside>
+
+    <footer>
+        Todos vivemos nas paranóias dos outros
+      </footer>
+      <a href="#" class="btn"></a>
+
+</body>
+</html>
